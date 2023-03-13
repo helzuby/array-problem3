@@ -15,7 +15,7 @@ function sortNumber(integers){
 
 console.log(sortNumber(integers)); 
  
-
+//Another method 
 integers.sort(function (a,b) {return a-b});
 integers.sort(function (a,b) {return b-a});
 
